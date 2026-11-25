@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>武汉真诚沟通文化传播有限公司 | Wuhan Zhencheng Goutong Cultural Communication Co., Ltd.</title>
+  <meta name="description" content="Official website of Wuhan Zhencheng Goutong Cultural Communication Co., Ltd. (武汉真诚沟通文化传播有限公司) - Digital Media, Cultural Exchange, Brand Strategy & Software Solutions." />
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-dark: #0284c7;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.9);
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(8px);
+      z-index: 10;
+    }
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .brand {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .brand span {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 400;
+    }
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 0.92rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+    .hero {
+      padding: 72px 0 56px;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.12);
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+    .hero h2 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    .hero p {
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+    section {
+      padding: 56px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-title {
+      font-size: 1.45rem;
+      margin-bottom: 8px;
+    }
+    .section-sub {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 28px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+    .card h4 {
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .info-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .info-table th,
+    .info-table td {
+      padding: 16px 20px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.94rem;
+    }
+    .info-table th {
+      width: 280px;
+      color: var(--muted);
+      font-weight: 500;
+      background: rgba(15, 23, 42, 0.35);
+    }
+    .info-table tr:last-child th,
+    .info-table tr:last-child td {
+      border-bottom: none;
+    }
+    footer {
+      padding: 36px 0;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.65rem; }
+      .info-table th, .info-table td { display: block; width: 100%; }
+      .info-table th { padding-bottom: 4px; border-bottom: none; }
+      .info-table td { padding-top: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        武汉真诚沟通文化传播有限公司
+        <span>Wuhan Zhencheng Goutong Cultural Communication Co., Ltd.</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">关于我们 / About</a>
+        <a href="#services">业务范畴 / Services</a>
+        <a href="#corporate">企业档案 / Corporate Info</a>
+        <a href="#contact">联系我们 / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="hero" id="about">
+      <span class="badge">ESTABLISHED 2015 · WUHAN, CHINA</span>
+      <h1>武汉真诚沟通文化传播有限公司</h1>
+      <h2>Wuhan Zhencheng Goutong Cultural Communication Co., Ltd.</h2>
+      <p>
+        武汉真诚沟通文化传播有限公司成立于 2015 年 5 月，位于中国湖北省武汉市武昌区。我们专注于数字内容创作、移动应用与互动媒体研发、文化艺术交流活动组织及企业品牌营销策划服务，致力于通过数字技术与创意内容构建高效的沟通桥梁。<br /><br />
+        Founded in May 2015 and headquartered in Wuchang District, Wuhan, Hubei, China, Wuhan Zhencheng Goutong Cultural Communication Co., Ltd. specializes in digital content creation, mobile applications and interactive media development, cultural exchange organization, and corporate brand strategy.
+      </p>
+    </div>
+
+    <section id="services">
+      <h2 class="section-title">核心业务 / Core Services</h2>
+      <p class="section-sub">Digital Media, Mobile Applications &amp; Cultural Communication Solutions</p>
+      <div class="grid">
+        <div class="card">
+          <h3>数字媒体与移动应用</h3>
+          <h4>Digital Media &amp; Mobile Applications</h4>
+          <p>提供跨平台移动应用产品设计、开发与全球化数字内容发行，打造简洁易用的移动端工具与内容体验。<br />Design, development, and publishing of cross-platform mobile applications and digital interactive utilities for global users.</p>
+        </div>
+        <div class="card">
+          <h3>品牌策划与市场营销</h3>
+          <h4>Brand Strategy &amp; Marketing</h4>
+          <p>为企业提供全方位企业形象策划（CIS）、市场营销策略咨询、广告设计代理与多渠道创意传播方案。<br />Comprehensive corporate identity planning, marketing consultancy, advertising design, and multi-channel communication solutions.</p>
+        </div>
+        <div class="card">
+          <h3>文化艺术交流策划</h3>
+          <h4>Cultural &amp; Artistic Exchange</h4>
+          <p>组织与承办各类文化艺术交流活动、会议及展览策划，推动本土文化内容与数字化传播的深度融合。<br />Planning and organization of cultural exchange events, exhibitions, and digital cultural programs.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="corporate">
+      <h2 class="section-title">企业资质与登记档案 / Corporate Registration Profile</h2>
+      <p class="section-sub">Official Registration &amp; Dun &amp; Bradstreet (D-U-N-S®) Verified Details</p>
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <th>企业中文全称 / Legal Name (ZH)</th>
+            <td>武汉真诚沟通文化传播有限公司</td>
+          </tr>
+          <tr>
+            <th>企业英文全称 / Legal Name (EN)</th>
+            <td>Wuhan Zhencheng Goutong Cultural Communication Co., Ltd.</td>
+          </tr>
+          <tr>
+            <th>邓白氏编码 / D-U-N-S® Number</th>
+            <td>41-052-2847 (410522847)</td>
+          </tr>
+          <tr>
+            <th>统一社会信用代码 / Registration No.</th>
+            <td>91420106333465404D</td>
+          </tr>
+          <tr>
+            <th>成立日期 / Date of Incorporation</th>
+            <td>2015-05-26</td>
+          </tr>
+          <tr>
+            <th>注册地址（中文） / Registered Address (ZH)</th>
+            <td>湖北省武汉市武昌区联盟路43号余家头三期小区B座裙楼1层105室（邮编：430000）</td>
+          </tr>
+          <tr>
+            <th>注册地址（英文） / Registered Address (EN)</th>
+            <td>Room 105, 1st Floor, Podium Building B, Yujiatou Phase III Community, No. 43 Lianmeng Road, Wuchang District, Wuhan, Hubei, 430000, China</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">联系我们 / Contact &amp; Support</h2>
+      <p class="section-sub">Developer Support &amp; Business Inquiries</p>
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <th>客户支持与商务邮箱 / Support Email</th>
+            <td><a href="mailto:yiyic6011@gmail.com" style="color: var(--accent);">yiyic6011@gmail.com</a> / <a href="mailto:812114862@qq.com" style="color: var(--accent);">812114862@qq.com</a></td>
+          </tr>
+          <tr>
+            <th>办公及通信地址 / Mailing Address</th>
+            <td>Room 105, 1st Floor, Podium Building B, Yujiatou Phase III Community, No. 43 Lianmeng Road, Wuchang District, Wuhan, 430000, China</td>
+          </tr>
+          <tr>
+            <th>服务时间 / Business Hours</th>
+            <td>Monday – Friday, 09:00 – 18:00 (GMT+8)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2015–2026 武汉真诚沟通文化传播有限公司 (Wuhan Zhencheng Goutong Cultural Communication Co., Ltd.). All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
